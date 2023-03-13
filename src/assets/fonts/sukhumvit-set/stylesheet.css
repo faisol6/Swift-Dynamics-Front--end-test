@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("SukhumvitSet-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("SukhumvitSet-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("SukhumvitSet-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("SukhumvitSet-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("SukhumvitSet-Text.woff2") format("woff2"),
+    url("SukhumvitSet-Text.woff") format("woff"),
+    url("SukhumvitSet-Text.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("SukhumvitSet-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}

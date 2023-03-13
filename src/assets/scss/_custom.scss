@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-btn.action-form-btn:hover {
+  background-color: #d4e8ff;
+  color: #01438f;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+}
+.ant-tabs .ant-tabs-tab-btn {
+  color: rgb(122, 122, 122) !important;
+}
+.ant-tabs-top > .ant-tabs-nav::before {
+  border-bottom: 0px solid rgba(5, 5, 5, 0.06) !important;
+}
+
+.ant-pagination .ant-pagination-item a {
+  color: white !important;
+}
+.ant-pagination .ant-pagination-item-active a {
+  color: #1677ff !important;
+}
+button.ant-pagination-item-link {
+  color: white !important;
+}
+
+.num-btn-cal {
+  height: 50px;
+  color: white;
+  background-color: rgb(255, 123, 0);
+  border: 1px solid white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.num-btn-cal:hover {
+  background-color: rgb(252, 187, 37);
+}
+
+.operater-btn-cal {
+  height: 50px;
+  color: white;
+  background-color: rgb(141, 227, 11);
+  border: 1px solid white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.operater-btn-cal:hover {
+  background-color: greenyellow;
+}
+
+.result-cal {
+  height: 35px;
+  border: 2px solid rgb(205, 205, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
